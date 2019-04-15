@@ -2,5 +2,22 @@
 	background-image: url(../../img/header_banner.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
-	min-height: 100vh;
+	color: #fff;
+	text-align: center;
+}
+.banner .overlay{
+	background-color: rgba(0, 0, 0, 0.48);
+	height: 100%;
+	width: 100%;
+}
+.banner h1{
+	font-size: 3.5rem;
+	font-weight: 600;
+}
+.banner p{
+	font-size: 2rem;
+}
+@media(min-width: 700px){
+	.banner .container{padding: 14rem 0;}
+	.banner h1{font-size: 5rem;}
 }

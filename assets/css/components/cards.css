@@ -1,0 +1,20 @@
+.card{
+	background-color: #fff;
+	box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	min-width: 90%;
+	max-width: 100%;
+	padding: 1rem;
+}
+/*local class*/
+.card .card-header{
+	margin: 0 auto;
+	width: 30%;
+}
+.card .card-header img{
+	width: 70%;
+}
+.card .card-body{
+	text-align: center;
+}
+.card .card-body p{font-size: .98rem;}

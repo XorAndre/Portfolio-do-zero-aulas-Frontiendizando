@@ -1,6 +1,7 @@
 *{
 	box-sizing: border-box;
 	font: inherit;
+	font-family: var(--roboto);
 	font-size: 100%;
 	line-height: 1.6;
 	margin: 0;

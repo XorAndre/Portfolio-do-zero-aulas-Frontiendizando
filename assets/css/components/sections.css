@@ -1,0 +1,41 @@
+section .container{
+	padding: 4rem 0;
+	width: 80%;
+}
+/*estilos locais*/
+.sobre .container-logo{
+	position: relative;
+}
+.servicos{background-color: #f9f9f9;}
+.portfolio .galeria{
+	width: 90%;
+}
+.portfolio .galeria li{
+	display: inline-block;
+	margin: .8rem;
+	position: relative;
+	width: 100%;
+	transition: 1s linear width;
+}
+.portfolio .galeria li a{
+	width: 90%;
+	position: absolute;
+	left: 1rem;
+}
+.portfolio .galeria li a:hover{
+	left: -15rem;
+	width: 700px;
+	z-index: 1;
+}
+@media(min-width: 700px){
+	.sobre .container-logo{
+		left: 2rem;
+	}
+	.sobre .container-logo img{
+		border-radius: 5px;
+		width: 30vw;
+	}
+	.portfolio .galeria li{
+		width: 20%;
+	}
+}

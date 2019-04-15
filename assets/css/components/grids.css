@@ -1,0 +1,17 @@
+.container{
+	margin: 0 auto;
+	width: 99%;
+}
+.row{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+[class*="col-"]{padding: 15px;}
+@media(min-width: 700px){
+	.container{width: 90%;}
+	.col-4{width: 33.38%;}
+	.col-6{width: 50%;}
+	.col-12{width: 100%;}
+	.row{flex-direction: row;}
+}
